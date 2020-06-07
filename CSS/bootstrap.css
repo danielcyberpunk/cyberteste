@@ -409,10 +409,12 @@ h6, .h6 {
 }
 
 .display-3 {
-  font-size: 4.5rem;
-  font-weight: 300;
+  font-size: 38px;
+  font-weight: bold;
   line-height: 1.2;
-}
+  color: #ffffff;
+  text-shadow: 5px 5px #000;
+  }
 
 .display-4 {
   font-size: 3.5rem;
@@ -559,7 +561,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-}
+  }
 
 @media (min-width: 576px) {
   .container {
@@ -4934,6 +4936,16 @@ tbody.collapse.show {
   margin-bottom: 2rem;
   background-color: #e9ecef;
   border-radius: 0.3rem;
+  background-image: url(../img/backdados.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.subtitle {
+  color: #ffffff;
+  font-size: 20px;
+  text-shadow: 1px 1px #000;
 }
 
 @media (min-width: 576px) {
